@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        // 容器
+//        let diContainer = <#value#>
+        
+        // 容器 -> 主控制器
+//        let mainVC = <#value#>
+        
+        
         return true
     }
 

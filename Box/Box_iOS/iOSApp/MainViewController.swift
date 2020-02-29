@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import BoxUIKit
+
+public class MainViewController: NiblessViewController {
+    // 登录
+//    let launchViewController:
+    // 导航
+//    let guideViewController:
+    // 浏览
+//    var browseViewController:
+    
+}

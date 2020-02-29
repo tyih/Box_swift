@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public func makeURL() -> URL {
+    
+    return URL(string: "https://xxx.png")!
+}
