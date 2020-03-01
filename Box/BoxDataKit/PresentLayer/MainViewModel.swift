@@ -9,9 +9,19 @@
 
 import Foundation
 
-public class MainViewModel {
+public class MainViewModel: GuideResponder, SignedInResponder, BrowseResponder {
     
-    public init() {
-        
+    public init() {}
+    
+    public func guide() {
+        // 导航
+    }
+    
+    public func signedIn(to userSession: UserSession) {
+        // 登录
+    }
+    
+    public func browse() {
+        // 浏览
     }
 }

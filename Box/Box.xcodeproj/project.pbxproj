@@ -12,7 +12,6 @@
 		71C98415240AA97D004DBB69 /* AuthRemoteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C98414240AA97D004DBB69 /* AuthRemoteAPI.swift */; };
 		71C98418240AC4AB004DBB69 /* FakeAuthRemoreAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C98417240AC4AB004DBB69 /* FakeAuthRemoreAPI.swift */; };
 		84615BF823B0B102000A8CDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615BF723B0B102000A8CDD /* AppDelegate.swift */; };
-		84615BFA23B0B102000A8CDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615BF923B0B102000A8CDD /* ViewController.swift */; };
 		84615BFF23B0B108000A8CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84615BFE23B0B108000A8CDD /* Assets.xcassets */; };
 		84615C0223B0B108000A8CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84615C0023B0B108000A8CDD /* LaunchScreen.storyboard */; };
 		84615C1223B0B2B0000A8CDD /* Box_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 84615C1023B0B2B0000A8CDD /* Box_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +52,7 @@
 		84615C8723B0E566000A8CDD /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615C8623B0E566000A8CDD /* LaunchViewModel.swift */; };
 		84615C8923B0E589000A8CDD /* GuideResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615C8823B0E589000A8CDD /* GuideResponder.swift */; };
 		84615C8B23B0E5AC000A8CDD /* SignedInResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615C8A23B0E5AC000A8CDD /* SignedInResponder.swift */; };
-		84615C8D23B0E5EF000A8CDD /* BrowseResponsder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615C8C23B0E5EF000A8CDD /* BrowseResponsder.swift */; };
+		84615C8D23B0E5EF000A8CDD /* BrowseResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84615C8C23B0E5EF000A8CDD /* BrowseResponder.swift */; };
 		84647C5123B4A5B800A19468 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84647C4D23B4A5B700A19468 /* PromiseKit.framework */; };
 		84647C5223B4A5B800A19468 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84647C4E23B4A5B700A19468 /* RxCocoa.framework */; };
 		84647C5323B4A5B800A19468 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84647C4F23B4A5B700A19468 /* RxSwift.framework */; };
@@ -105,7 +104,6 @@
 		71C98417240AC4AB004DBB69 /* FakeAuthRemoreAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAuthRemoreAPI.swift; sourceTree = "<group>"; };
 		84615BF423B0B102000A8CDD /* Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Box.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84615BF723B0B102000A8CDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84615BF923B0B102000A8CDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84615BFE23B0B108000A8CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84615C0123B0B108000A8CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84615C0323B0B108000A8CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,7 +145,7 @@
 		84615C8623B0E566000A8CDD /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
 		84615C8823B0E589000A8CDD /* GuideResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideResponder.swift; sourceTree = "<group>"; };
 		84615C8A23B0E5AC000A8CDD /* SignedInResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignedInResponder.swift; sourceTree = "<group>"; };
-		84615C8C23B0E5EF000A8CDD /* BrowseResponsder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseResponsder.swift; sourceTree = "<group>"; };
+		84615C8C23B0E5EF000A8CDD /* BrowseResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseResponder.swift; sourceTree = "<group>"; };
 		84647C4D23B4A5B700A19468 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
 		84647C4E23B4A5B700A19468 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		84647C4F23B4A5B700A19468 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
@@ -240,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				84615BF723B0B102000A8CDD /* AppDelegate.swift */,
-				84615BF923B0B102000A8CDD /* ViewController.swift */,
 				84615BFE23B0B108000A8CDD /* Assets.xcassets */,
 				84615C0023B0B108000A8CDD /* LaunchScreen.storyboard */,
 				84615C0323B0B108000A8CDD /* Info.plist */,
@@ -393,7 +390,7 @@
 				84615C8623B0E566000A8CDD /* LaunchViewModel.swift */,
 				84615C8823B0E589000A8CDD /* GuideResponder.swift */,
 				84615C8A23B0E5AC000A8CDD /* SignedInResponder.swift */,
-				84615C8C23B0E5EF000A8CDD /* BrowseResponsder.swift */,
+				84615C8C23B0E5EF000A8CDD /* BrowseResponder.swift */,
 			);
 			path = PresentLayer;
 			sourceTree = "<group>";
@@ -594,18 +591,19 @@
 				TargetAttributes = {
 					84615BF323B0B102000A8CDD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
 					};
 					84615C0D23B0B2B0000A8CDD = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 					84615C1F23B0B2C7000A8CDD = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 					84615C3023B0B2DB000A8CDD = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -698,7 +696,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84615BFA23B0B102000A8CDD /* ViewController.swift in Sources */,
 				84615BF823B0B102000A8CDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -739,7 +736,7 @@
 				84615C6B23B0E344000A8CDD /* NewAccount.swift in Sources */,
 				84615C6D23B0E351000A8CDD /* Secret.swift in Sources */,
 				84615C6523B0E31C000A8CDD /* LogMessage.swift in Sources */,
-				84615C8D23B0E5EF000A8CDD /* BrowseResponsder.swift in Sources */,
+				84615C8D23B0E5EF000A8CDD /* BrowseResponder.swift in Sources */,
 				84615C6323B0E30C000A8CDD /* UserSession.swift in Sources */,
 				84615C8723B0E566000A8CDD /* LaunchViewModel.swift in Sources */,
 				84615C8323B0E53B000A8CDD /* MainViewModel.swift in Sources */,
@@ -920,7 +917,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ty.Box;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -943,7 +940,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ty.Box;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -975,7 +972,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1008,7 +1005,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ty.Box-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1038,7 +1035,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1067,7 +1064,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ty.BoxUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1101,7 +1098,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1134,7 +1131,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ty.BoxDataKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

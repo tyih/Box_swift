@@ -7,3 +7,19 @@
 //
 
 import Foundation
+import BoxUIKit
+import BoxDataKit
+
+protocol LaunchViewModelFactory {
+    func makeLaunchViewModel() -> LaunchViewModel
+}
+
+public class LaunchViewController: NiblessViewController {
+    let viewModel: LaunchViewModel
+    
+    init(launchViewModelFactory: LaunchViewModelFactory) {
+        self.viewModel = launchViewModelFactory.makeLaunchViewModel()
+        super.init()
+    }
+    
+}

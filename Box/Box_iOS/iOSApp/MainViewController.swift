@@ -8,13 +8,27 @@
 
 import Foundation
 import BoxUIKit
+import BoxDataKit
 
 public class MainViewController: NiblessViewController {
-    // 登录
-//    let launchViewController:
+    
+    let viewModel: MainViewModel
+    
+    let launchViewController: LaunchViewController
     // 导航
 //    let guideViewController:
     // 浏览
 //    var browseViewController:
     
+    public init(viewModel: MainViewModel, launchViewController: LaunchViewController) {
+        
+        self.viewModel = viewModel
+        self.launchViewController = launchViewController
+        
+        super.init()
+    }
+    
+    public override func viewDidLoad() {
+        view.backgroundColor = UIColor.red
+    }
 }

@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+public protocol BrowseResponder {
+    
+    func browse()
+}

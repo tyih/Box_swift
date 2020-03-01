@@ -7,21 +7,22 @@
 //
 
 import UIKit
+import Box_iOS
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        // 容器
-//        let diContainer = <#value#>
+        let diContainer = BoxAppDepedencyContainer()
         
-        // 容器 -> 主控制器
-//        let mainVC = <#value#>
+        let mainVC = diContainer.makeMainViewController()
         
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = mainVC
+        window?.makeKeyAndVisible()
         
         return true
     }
